@@ -3,7 +3,7 @@
     "dev": "node node_modules/govuk-prototype-kit/bin/cli dev",
     "serve": "node node_modules/govuk-prototype-kit/bin/cli serve'",
     "start": "node node_modules/govuk-prototype-kit/bin/cli start",
-    "build": "npx eleventy"
+    "build": "eleventy"
   },
   "dependencies": {
     "@govuk-prototype-kit/common-templates": "2.0.1",

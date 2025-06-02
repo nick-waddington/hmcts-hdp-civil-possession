@@ -1,10 +1,11 @@
 module.exports = function(eleventyConfig) {
   return {
     dir: {
-      input: "views",   // where your Nunjucks files live
-      output: "docs"    // where GitHub Pages will serve from
+      input: "views",
+      output: "docs"
     },
-    templateFormats: ["njk", "html"],
-    htmlTemplateEngine: "njk"
+    markdownTemplateEngine: "njk",
+    htmlTemplateEngine: "njk",
+    templateFormats: ["njk", "html"]
   };
 };
